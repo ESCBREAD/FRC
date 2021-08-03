@@ -1,0 +1,8 @@
+See file:///D:/5516YX/robot5516_2/swervebot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling SwerveModule.cpp successful.
+
+compiling Drivetrain.cpp successful.
+
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///D:/5516YX/robot5516_2/swervebot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
