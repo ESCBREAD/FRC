@@ -1,0 +1,260 @@
+[
+    {
+        "messageType": 2,
+        "timestamp": 68.8956298828125,
+        "seqNumber": 2,
+        "line": ""
+    },
+    {
+        "messageType": 2,
+        "timestamp": 68.89736938476562,
+        "seqNumber": 3,
+        "line": "********** Robot program starting **********"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 68.96829223632812,
+        "seqNumber": 4,
+        "line": "NT: server: client CONNECTED: 172.22.11.1 port 63165"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 69.04397583007812,
+        "seqNumber": 5,
+        "line": "Calibrating analog gyro for 5.000000e+00 seconds."
+    },
+    {
+        "timestamp": 71.96502685546875,
+        "seqNumber": 6,
+        "numOccur": 1,
+        "errorCode": 0,
+        "flags": 0,
+        "details": "[phoenix] Library initialization is complete.",
+        "location": "",
+        "callStack": "",
+        "messageType": 1
+    },
+    {
+        "timestamp": 74.00820922851562,
+        "seqNumber": 7,
+        "numOccur": 1,
+        "errorCode": 0,
+        "flags": 0,
+        "details": "[phoenix-diagnostics] Server 1.8.6 (Jan  8 2021,20:09:49) running on port: 1250",
+        "location": "",
+        "callStack": "",
+        "messageType": 1
+    },
+    {
+        "messageType": 2,
+        "timestamp": 74.08526611328125,
+        "seqNumber": 8,
+        "line": "Default RobotInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 74.08721923828125,
+        "seqNumber": 9,
+        "line": "Default DisabledInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 74.08978271484375,
+        "seqNumber": 10,
+        "line": "Default DisabledPeriodic() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 74.09112548828125,
+        "seqNumber": 11,
+        "line": "Default RobotPeriodic() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 158.96240234375,
+        "seqNumber": 12,
+        "line": "Default TeleopInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 183.0631103515625,
+        "seqNumber": 13,
+        "line": "Default DisabledInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0,
+        "seqNumber": 14,
+        "line": ""
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0.00146484375,
+        "seqNumber": 15,
+        "line": "********** Robot program starting **********"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0.121337890625,
+        "seqNumber": 16,
+        "line": "Calibrating analog gyro for 5.000000e+00 seconds."
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0.482666015625,
+        "seqNumber": 17,
+        "line": "NT: server: client CONNECTED: 172.22.11.1 port 64554"
+    },
+    {
+        "timestamp": 3.046142578125,
+        "seqNumber": 18,
+        "numOccur": 1,
+        "errorCode": 0,
+        "flags": 0,
+        "details": "[phoenix] Library initialization is complete.",
+        "location": "",
+        "callStack": "",
+        "messageType": 1
+    },
+    {
+        "timestamp": 5.09375,
+        "seqNumber": 19,
+        "numOccur": 1,
+        "errorCode": 0,
+        "flags": 0,
+        "details": "[phoenix-diagnostics] Server 1.8.6 (Jan  8 2021,20:09:49) running on port: 1250",
+        "location": "",
+        "callStack": "",
+        "messageType": 1
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.16259765625,
+        "seqNumber": 20,
+        "line": "Default RobotInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.164306640625,
+        "seqNumber": 21,
+        "line": "Default DisabledInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.16455078125,
+        "seqNumber": 22,
+        "line": "Default DisabledPeriodic() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.164794921875,
+        "seqNumber": 23,
+        "line": "Default RobotPeriodic() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 24.792724609375,
+        "seqNumber": 24,
+        "line": "Default TeleopInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 71.972412109375,
+        "seqNumber": 25,
+        "line": "Default DisabledInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 622.079833984375,
+        "seqNumber": 26,
+        "line": "Default TeleopInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 637.559326171875,
+        "seqNumber": 27,
+        "line": "Default DisabledInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0,
+        "seqNumber": 28,
+        "line": ""
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0.0009765625,
+        "seqNumber": 29,
+        "line": "********** Robot program starting **********"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0.12060546875,
+        "seqNumber": 30,
+        "line": "Calibrating analog gyro for 5.000000e+00 seconds."
+    },
+    {
+        "messageType": 2,
+        "timestamp": 0.44970703125,
+        "seqNumber": 31,
+        "line": "NT: server: client CONNECTED: 172.22.11.1 port 62366"
+    },
+    {
+        "timestamp": 3.0458984375,
+        "seqNumber": 32,
+        "numOccur": 1,
+        "errorCode": 0,
+        "flags": 0,
+        "details": "[phoenix] Library initialization is complete.",
+        "location": "",
+        "callStack": "",
+        "messageType": 1
+    },
+    {
+        "timestamp": 5.09228515625,
+        "seqNumber": 33,
+        "numOccur": 1,
+        "errorCode": 0,
+        "flags": 0,
+        "details": "[phoenix-diagnostics] Server 1.8.6 (Jan  8 2021,20:09:49) running on port: 1250",
+        "location": "",
+        "callStack": "",
+        "messageType": 1
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.1630859375,
+        "seqNumber": 34,
+        "line": "Default RobotInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.16455078125,
+        "seqNumber": 35,
+        "line": "Default DisabledInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.166015625,
+        "seqNumber": 36,
+        "line": "Default DisabledPeriodic() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.16650390625,
+        "seqNumber": 37,
+        "line": "Default RobotPeriodic() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 5.71044921875,
+        "seqNumber": 38,
+        "line": "Default TeleopInit() method... Override me!"
+    },
+    {
+        "messageType": 2,
+        "timestamp": 82.55126953125,
+        "seqNumber": 39,
+        "line": "Default DisabledInit() method... Override me!"
+    }
+]
