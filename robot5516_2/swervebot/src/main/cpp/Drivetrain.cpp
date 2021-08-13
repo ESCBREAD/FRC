@@ -72,7 +72,7 @@ _sb.append(std::to_string(isSpeedMarked));
                           xSpeed, ySpeed, rot, m_gyro.GetRotation2d())
                     : frc::ChassisSpeeds{xSpeed, ySpeed, rot});
 
-*/
+
   auto states = !isPowerZeroed ? 
                   (m_kinematics.ToSwerveModuleStates(
                     fieldRelative ? frc::ChassisSpeeds::FromFieldRelativeSpeeds(xSpeed, ySpeed, rot, m_gyro.GetRotation2d())
@@ -80,6 +80,16 @@ _sb.append(std::to_string(isSpeedMarked));
                   :
                   (m_kinematics.ToSwerveModuleStates(
                     fieldRelative ? frc::ChassisSpeeds::FromFieldRelativeSpeeds(xSpeedLast, ySpeedLast, rot, m_gyro.GetRotation2d())
+                            : frc::ChassisSpeeds{xSpeedLast, ySpeedLast, rot}));
+*/
+
+  auto states = !isPowerZeroed ? 
+                  (m_kinematics.ToSwerveModuleStates(
+                    fieldRelative ? frc::ChassisSpeeds::FromFieldRelativeSpeeds(xSpeed, ySpeed, rot, getGyroAngle())
+                            : frc::ChassisSpeeds{xSpeed, ySpeed, rot}))
+                  :
+                  (m_kinematics.ToSwerveModuleStates(
+                    fieldRelative ? frc::ChassisSpeeds::FromFieldRelativeSpeeds(xSpeedLast, ySpeedLast, rot, getGyroAngle())
                             : frc::ChassisSpeeds{xSpeedLast, ySpeedLast, rot}));
 
 _sb.append("\tisPowerZeroed:");
@@ -104,6 +114,9 @@ _sb.append(std::to_string(isPowerZeroed));
   _sb.clear();
 }
 
+
+
+
 /*
 void Drivetrain::UpdateOdometry() {
   m_odometry.Update(m_gyro.GetRotation2d(), m_frontLeft.GetState(),
@@ -111,3 +124,10 @@ void Drivetrain::UpdateOdometry() {
                     m_backRight.GetState());
 }
 */
+
+
+frc::Rotation2d  Drivetrain::getGyroAngle() {
+      //double angle = ((int)-m_gyro.GetAngle() + (double)360) % (double)360;
+    double angle = ((int)-m_gyro.GetAngle() + 360) % 360;
+    return frc::Rotation2d{units::degree_t{angle}};
+}

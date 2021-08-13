@@ -23,6 +23,9 @@ class Drivetrain {
              bool fieldRelative);
   void UpdateOdometry();
 
+    //??import com.kauailabs.navx.AHRSProtocol;
+  frc::Rotation2d  getGyroAngle();
+
   static constexpr units::meters_per_second_t kMaxSpeed =
       2.0_mps;  // 3 meters per second
   static constexpr units::radians_per_second_t kMaxAngularSpeed{

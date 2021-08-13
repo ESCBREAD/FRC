@@ -140,6 +140,7 @@ void SwerveModule::SetDesiredState(
         //                   std::max((double)-1, std::min(driveMotorOutput,(double) 1) ) * lowPowerScaler);
 
         m_turningMotor.Set( turnMotorOuptut);
-        m_driveMotor.Set(std::max((double)-1, std::min(driveMotorOutput,(double) 1) ) * lowPowerScaler);
+        //m_driveMotor.Set(std::max((double)-1, std::min(driveMotorOutput,(double) 1) ) * lowPowerScaler);
+        m_driveMotor.Set(std::clamp((double)driveMotorOutput, (double)-1, (double)1) * lowPowerScaler);
         //std::clamp(driveMotorOutput, -1, 1);
 }

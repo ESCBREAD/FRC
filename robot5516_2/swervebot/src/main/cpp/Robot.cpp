@@ -79,7 +79,7 @@ _sb.append("\n");
                         * Drivetrain.kMaxAngularSpeed;
 */
 //dY = wpi::math::
-  dY = std::max((double) -1 , std::min(dY, (double)1) );
+  dY = std::clamp((double)dY, (double)-1, (double)1);
   dY = std::abs(dY) > 0.05 ? dY : 0;
     const auto xSpeed = -m_xspeedLimiter.Calculate(dY)  * Drivetrain::kMaxSpeed;
 
@@ -89,9 +89,8 @@ _sb.append("\n");
 //    const auto ySpeed = -m_yspeedLimiter.Calculate(
 //                            m_controller.GetX(frc::GenericHID::kLeftHand)) *
 //                        Drivetrain::kMaxSpeed;
-  dX = std::max((double) -1 , std::min(dX, (double)1) );
+  dX = std::clamp((double)dX, (double)-1, (double)1);
   dX = std::abs(dX) > 0.05 ? dX : 0;
-
     const auto ySpeed = -m_yspeedLimiter.Calculate(dX) * Drivetrain::kMaxSpeed;
 
 
